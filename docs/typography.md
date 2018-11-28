@@ -4,3 +4,12 @@
 
 ## Microsoft
 > Segoe UI
+
+## MacOS & iOS
+> SF Pro Display
+
+## Android & Chrome OS 
+> Roboto
+
+
+ 
