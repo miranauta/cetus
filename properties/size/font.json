@@ -1,0 +1,31 @@
+{
+  "size": {
+    "font": {
+      "micro" : {
+        "value": "0.25",
+        "comment": "the smallest size of the font"
+      },
+      "tiny" : {
+        "value": "0.5"
+      },
+      "small": {
+        "value": "0.75"
+      },
+      "medium" : {
+        "value": "1",
+        "comment": "the normal size of the font"
+      },
+      "large" : {
+        "value": "1.25"
+      },
+      "big"  : {
+        "value": "1.5",
+        "comment": "the biggest size of the font"
+      },
+      "base"  : {
+        "value": "{size.font.medium.value}",
+        "comment": "the base size of the font"
+      }
+    }
+  }
+}
