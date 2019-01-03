@@ -1,0 +1,17 @@
+{
+  "name": "@mira/cetus",
+  "version": "0.1.0",
+  "description": "Mira Cetus design system.",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=6.10.0"
+  },
+  "scripts": {
+    "build": "style-dictionary build"
+  },
+  "author": "Mira Developers",
+  "license": "SEE LICENSE IN LICENSE",
+  "dependencies": {
+    "style-dictionary": "^2.6.2"
+  }
+}
