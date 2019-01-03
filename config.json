@@ -11,7 +11,7 @@
     },
     "android": {
       "transformGroup": "android",
-      "buildPath": "build/android/",
+      "buildPath": "cetus/src/main/res/values/",
       "files": [{
         "destination": "font_dimens.xml",
         "format": "android/fontDimens"
