@@ -1,6 +1,6 @@
 {
   "name": "@mira/cetus",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "Mira Cetus design system.",
   "main": "src/index.js",
   "engines": {
