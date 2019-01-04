@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly
+  Generated on Fri, 04 Jan 2019 11:34:28 GMT
+-->
+<resources>
+  <color name="color_blue_primary">#ff004f6b</color>
+  <color name="color_blue_light">#ff407b90</color>
+  <color name="color_blue_lighter">#ffd9e5e9</color>
+  <color name="color_red_primary">#ffb6494c</color>
+  <color name="color_red_light">#fff06e6e</color>
+  <color name="color_red_lighter">#fff4e4e4</color>
+  <color name="color_green_primary">#ff267c77</color>
+  <color name="color_green_light">#ff44bca8</color>
+  <color name="color_green_lighter">#ffdfeceb</color>
+  <color name="color_yellow_primary">#fffabe2c</color>
+  <color name="color_yellow_light">#fffccf61</color>
+  <color name="color_yellow_lighter">#fffff6e0</color>
+  <color name="color_orange_primary">#fff68a33</color>
+  <color name="color_orange_light">#fff9a866</color>
+  <color name="color_orange_lighter">#fffeeee1</color>
+  <color name="color_grayblue_primary">#ff7ea7c6</color>
+  <color name="color_grayblue_light">#ffcfd9e2</color>
+  <color name="color_grayblue_lighter">#ffebeff5</color>
+  <color name="color_gray_primary">#ff3e4953</color>
+  <color name="color_gray_light">#ff777f86</color>
+  <color name="color_black_20">#33000000</color>
+  <color name="color_black_75">#bf000000</color>
+  <color name="color_text_base">#ff3e4953</color>
+  <color name="color_text_secondary">#ff777f86</color>
+  
+</resources>
