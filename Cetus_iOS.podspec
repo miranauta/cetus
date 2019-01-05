@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
-  s.name             = 'Cetus Design System'
+  s.name             = 'CetusDesignToken'
   s.version          = '0.1.0'
-  s.summary          = 'A StyleDictionary pod default tokens'
+  s.summary          = 'Mira default tokens'
   s.description      = <<-DESC
-A custom StyleDictionary pod example with some default tokens.
+Cetus StyleDictionary with Mira's default tokens.
                        DESC
   s.homepage         = 'homepage'
   s.license          = { :type => 'Apache-2.0', :file => 'LICENSE' }
