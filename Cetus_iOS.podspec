@@ -12,5 +12,6 @@ Cetus StyleDictionary with Mira's default tokens.
   s.platform = :ios
   s.source_files = 'build/ios/**/*.{h,m}'
   s.public_header_files = 'build/ios/**/*.h'
+  s.resources = ['assets/images/png/*.png']
   s.frameworks = 'UIKit', 'QuartzCore'
 end
