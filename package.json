@@ -8,7 +8,7 @@
   },
   "scripts": {
     "build_tokens": "style-dictionary build",
-    "build_android": "s2v -f assets/images/svg/ -o cetus/src/main/res/drawable/",
+    "build_android": "s2v -f assets/images/svg/ -o cetus/src/main/res/drawable/"
     
   },
   "author": "Mira Developers",
