@@ -1,6 +1,6 @@
 {
   "name": "@mira/cetus",
-  "version": "0.1.16",
+  "version": "0.1.15",
   "description": "Mira Cetus design system.",
   "main": "src/index.js",
   "engines": {
@@ -9,7 +9,6 @@
   "scripts": {
     "build_tokens": "style-dictionary build",
     "build_android": "s2v -f assets/images/svg/ -o cetus/src/main/res/drawable/"
-    
   },
   "author": "Mira Developers",
   "license": "SEE LICENSE IN LICENSE",
