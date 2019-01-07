@@ -8,12 +8,15 @@
   },
   "scripts": {
     "build_tokens": "style-dictionary build",
-    "build_svg": "s2v -f assets/images/svg/ -o cetus/src/main/res/drawable/"
+    "build_android": "s2v -f assets/images/svg/ -o cetus/src/main/res/drawable/",
+    "compress_png": "node compress_png.js"
   },
   "author": "Mira Developers",
   "license": "SEE LICENSE IN LICENSE",
   "dependencies": {
     "style-dictionary": "^2.6.2",
-    "svg2vectordrawable": "^2.6.4"
+    "svg2vectordrawable": "^2.6.4",
+    "svgexport": "^0.3.2",
+    "compress-images": "^1.4.6"
     }
 }
