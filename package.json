@@ -14,7 +14,9 @@
   "license": "SEE LICENSE IN LICENSE",
   "dependencies": {
     "style-dictionary": "^2.6.2",
-    "svg2vectordrawable": "^2.6.4",
+    "svg2vectordrawable": "^2.6.4"
+    },
+  "devDependencies": {
     "svgexport": "^0.3.2"
-    }
+  }
 }
