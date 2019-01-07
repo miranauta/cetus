@@ -7,11 +7,13 @@
     "node": ">=6.10.0"
   },
   "scripts": {
-    "build": "style-dictionary build"
+    "build_tokens": "style-dictionary build",
+    "build_svg": "s2v -f assets/images/svg -o cetus/src/main/res/drawable"
   },
   "author": "Mira Developers",
   "license": "SEE LICENSE IN LICENSE",
   "dependencies": {
-    "style-dictionary": "^2.6.2"
-  }
+    "style-dictionary": "^2.6.2",
+    "svg2vectordrawable": "^2.6.4"
+    }
 }

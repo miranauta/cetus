@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>50252AAD-6FEC-4D9D-AC3E-F4ADDEAAC2CE</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M9.53033009,16.2478445 C9.8232233,16.5407377 9.8232233,17.0156115 9.53033009,17.3085047 C9.23743687,17.6013979 8.76256313,17.6013979 8.46966991,17.3085047 L0.691495321,9.53033009 C0.398602102,9.23743687 0.398602102,8.76256313 0.691495321,8.46966991 L8.46966991,0.691495321 C8.76256313,0.398602102 9.23743687,0.398602102 9.53033009,0.691495321 C9.8232233,0.98438854 9.8232233,1.45926227 9.53033009,1.75215549 L2.28248558,9 L9.53033009,16.2478445 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="🌎Icons-/-24x24-/-back">
+            <g id="↳🎨Colors-/-Accent-Copy-2" transform="translate(6.000000, 3.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <g id="🎨Colors-/-Accent" mask="url(#mask-2)" fill="#F68A33">
+                    <g transform="translate(-7.000000, -4.000000)" id="Rectangle-3">
+                        <rect x="0" y="0" width="26" height="26"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

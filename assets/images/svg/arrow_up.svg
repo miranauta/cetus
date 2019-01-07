@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>ABB60DB5-2466-4B85-A2AE-71A08EBB642A</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M9,2.06066017 L1.75215549,9.30850468 C1.45926227,9.6013979 0.98438854,9.6013979 0.691495321,9.30850468 C0.398602102,9.01561146 0.398602102,8.54073773 0.691495321,8.24784451 L8.46966991,0.469669914 C8.76256313,0.176776695 9.23743687,0.176776695 9.53033009,0.469669914 L17.3085047,8.24784451 C17.6013979,8.54073773 17.6013979,9.01561146 17.3085047,9.30850468 C17.0156115,9.6013979 16.5407377,9.6013979 16.2478445,9.30850468 L9,2.06066017 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="🌎Icons-/-24x24-/-arrow-up">
+            <g id="↳🎨Colors-/-Accent-Copy-3" transform="translate(3.000000, 8.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="up" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <g id="🎨Colors-/-Orange" mask="url(#mask-2)" fill="#F68A33">
+                    <g transform="translate(-4.000000, -9.000000)" id="Rectangle-3">
+                        <rect x="0" y="0" width="26" height="26"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
