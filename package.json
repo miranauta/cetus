@@ -9,7 +9,7 @@
   "scripts": {
     "build_tokens": "style-dictionary build",
     "build_android": "s2v -f assets/images/svg/ -o cetus/src/main/res/drawable/",
-    "svg_export": "svg_export"
+    "svg_export": "svgexport"
   },
   "author": "Mira Developers",
   "license": "SEE LICENSE IN LICENSE",
