@@ -3,7 +3,7 @@
 // CetusDictionaryColor.m
 //
 // Do not edit directly
-// Generated on Mon, 07 Jan 2019 13:28:59 GMT
+// Generated on Mon, 07 Jan 2019 15:13:00 GMT
 //
 
 #import "CetusDictionaryColor.h"
@@ -41,6 +41,8 @@
 [UIColor colorWithRed:0.92f green:0.94f blue:0.96f alpha:1.00f],
 [UIColor colorWithRed:0.24f green:0.29f blue:0.33f alpha:1.00f],
 [UIColor colorWithRed:0.47f green:0.50f blue:0.53f alpha:1.00f],
+[UIColor colorWithRed:0.67f green:0.67f blue:0.67f alpha:1.00f],
+[UIColor colorWithRed:0.73f green:0.73f blue:0.79f alpha:1.00f],
 [UIColor colorWithRed:0.00f green:0.00f blue:0.00f alpha:0.20f],
 [UIColor colorWithRed:0.00f green:0.00f blue:0.00f alpha:0.75f],
 [UIColor colorWithRed:0.24f green:0.29f blue:0.33f alpha:1.00f],
