@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'CetusDesignToken'
-  s.version          = "0.1.16"
+  s.version          = "0.1.17"
   s.summary          = 'Mira default tokens'
   s.description      = <<-DESC
 Cetus StyleDictionary with Mira's default tokens.
