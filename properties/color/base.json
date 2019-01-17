@@ -34,10 +34,6 @@
       "primary" : { "value": "#3e4953" },
       "light": { "value": "#777f86" }
     },
-    "rafarafa": {
-      "primary" : { "value": "#bbbbbb" },
-      "light": { "value": "#babaca" }
-    },
     "black": {
       "75" : { "value": {"r": 0, "g": 0, "b": 0, "a": 0.75} },
       "20": { "value": {"r": 0, "g": 0, "b": 0, "a": 0.2} }
