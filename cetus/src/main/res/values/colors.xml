@@ -2,7 +2,7 @@
 
 <!--
   Do not edit directly
-  Generated on Thu, 17 Jan 2019 18:40:49 GMT
+  Generated on Fri, 18 Jan 2019 12:12:48 GMT
 -->
 <resources>
   <color name="color_blue_primary">#ff004f6b</color>
@@ -25,11 +25,9 @@
   <color name="color_grayblue_lighter">#ffebeff5</color>
   <color name="color_gray_primary">#ff3e4953</color>
   <color name="color_gray_light">#ff777f86</color>
-  <color name="color_rafarafa_primary">#ffbbbbbb</color>
-  <color name="color_rafarafa_light">#ffbabaca</color>
-  <color name="color_reuniao_primary">#ffebaeba</color>
   <color name="color_black_20">#33000000</color>
   <color name="color_black_75">#bf000000</color>
+  <color name="color_shadow">#33000000</color>
   <color name="color_text_base">#ff3e4953</color>
   <color name="color_text_secondary">#ff777f86</color>
   
