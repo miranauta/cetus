@@ -2,7 +2,7 @@
 // CetusDictionarySize.h
 //
 // Do not edit directly
-// Generated on Thu, 31 Jan 2019 14:06:36 GMT
+// Generated on Thu, 31 Jan 2019 14:07:27 GMT
 //
 
 #import <Foundation/Foundation.h>
