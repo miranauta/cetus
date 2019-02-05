@@ -3,7 +3,7 @@
 // CetusDictionaryColor.h
 //
 // Do not edit directly
-// Generated on Thu, 31 Jan 2019 14:07:27 GMT
+// Generated on Tue, 05 Feb 2019 12:33:16 GMT
 //
 
 #import <UIKit/UIKit.h>
