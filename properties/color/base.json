@@ -2,7 +2,7 @@
   "color": {
     "blue": {
       "primary" : { "value": "#004f6b" },
-      "light": { "value": "#407b90" },
+      "light": { "value": "#99B8C3" },
       "lighter"  : { "value": "#d9e5e9" }
     },
     "red": {
