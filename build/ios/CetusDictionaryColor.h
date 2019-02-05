@@ -3,7 +3,7 @@
 // CetusDictionaryColor.h
 //
 // Do not edit directly
-// Generated on Tue, 08 Jan 2019 12:43:12 GMT
+// Generated on Thu, 31 Jan 2019 14:07:27 GMT
 //
 
 #import <UIKit/UIKit.h>
@@ -30,10 +30,9 @@ ColorGrayblueLight,
 ColorGrayblueLighter,
 ColorGrayPrimary,
 ColorGrayLight,
-ColorRafarafaPrimary,
-ColorRafarafaLight,
 ColorBlack20,
 ColorBlack75,
+ColorShadow,
 ColorTextBase,
 ColorTextSecondary
 };

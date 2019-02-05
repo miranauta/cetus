@@ -3,7 +3,7 @@
 // CetusDictionarySize.m
 //
 // Do not edit directly
-// Generated on Tue, 08 Jan 2019 12:43:12 GMT
+// Generated on Thu, 31 Jan 2019 14:07:27 GMT
 //
 
 #import "CetusDictionarySize.h"
