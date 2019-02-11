@@ -2,25 +2,25 @@
 // CetusDictionarySize.h
 //
 // Do not edit directly
-// Generated on Thu, 07 Feb 2019 20:21:51 GMT
+// Generated on Mon, 11 Feb 2019 11:48:34 GMT
 //
 
 #import <Foundation/Foundation.h>
 
 
 
-extern float const SizeFontMicro;
-extern float const SizeFontTiny;
-extern float const SizeFontSmall;
-extern float const SizeFontMedium;
-extern float const SizeFontLarge;
-extern float const SizeFontBig;
-extern float const SizeFontBase;
-extern float const SizePaddingMicro;
-extern float const SizePaddingTiny;
-extern float const SizePaddingSmall;
-extern float const SizePaddingRegular;
-extern float const SizePaddingLarge;
-extern float const SizePaddingBig;
-extern float const SizePaddingBigger;
-extern float const SizePaddingHuge;
+extern float const sizeFontMicro;
+extern float const sizeFontTiny;
+extern float const sizeFontSmall;
+extern float const sizeFontMedium;
+extern float const sizeFontLarge;
+extern float const sizeFontBig;
+extern float const sizeFontBase;
+extern float const sizePaddingMicro;
+extern float const sizePaddingTiny;
+extern float const sizePaddingSmall;
+extern float const sizePaddingRegular;
+extern float const sizePaddingLarge;
+extern float const sizePaddingBig;
+extern float const sizePaddingBigger;
+extern float const sizePaddingHuge;

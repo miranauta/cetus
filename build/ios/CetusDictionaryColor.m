@@ -3,7 +3,7 @@
 // CetusDictionaryColor.m
 //
 // Do not edit directly
-// Generated on Thu, 07 Feb 2019 20:21:51 GMT
+// Generated on Mon, 11 Feb 2019 11:48:34 GMT
 //
 
 #import "CetusDictionaryColor.h"

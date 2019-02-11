@@ -3,38 +3,38 @@
 // CetusDictionaryColor.h
 //
 // Do not edit directly
-// Generated on Thu, 07 Feb 2019 20:21:51 GMT
+// Generated on Mon, 11 Feb 2019 11:48:34 GMT
 //
 
 #import <UIKit/UIKit.h>
 
 
 typedef NS_ENUM(NSInteger, CetusDictionaryColorName) {
-ColorBluePrimary,
-ColorBlueLight,
-ColorBlueLighter,
-ColorRedPrimary,
-ColorRedLight,
-ColorRedLighter,
-ColorGreenPrimary,
-ColorGreenLight,
-ColorGreenLighter,
-ColorYellowPrimary,
-ColorYellowLight,
-ColorYellowLighter,
-ColorOrangePrimary,
-ColorOrangeLight,
-ColorOrangeLighter,
-ColorGraybluePrimary,
-ColorGrayblueLight,
-ColorGrayblueLighter,
-ColorGrayPrimary,
-ColorGrayLight,
-ColorBlack20,
-ColorBlack75,
-ColorShadow,
-ColorTextBase,
-ColorTextSecondary
+colorBluePrimary,
+colorBlueLight,
+colorBlueLighter,
+colorRedPrimary,
+colorRedLight,
+colorRedLighter,
+colorGreenPrimary,
+colorGreenLight,
+colorGreenLighter,
+colorYellowPrimary,
+colorYellowLight,
+colorYellowLighter,
+colorOrangePrimary,
+colorOrangeLight,
+colorOrangeLighter,
+colorGraybluePrimary,
+colorGrayblueLight,
+colorGrayblueLighter,
+colorGrayPrimary,
+colorGrayLight,
+colorBlack20,
+colorBlack75,
+colorShadow,
+colorTextBase,
+colorTextSecondary
 };
 
 @interface CetusDictionaryColor : NSObject
