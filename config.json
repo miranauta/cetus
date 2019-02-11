@@ -21,7 +21,15 @@
       }]
     },
     "ios": {
-      "transformGroup": "ios",
+      "transforms": [
+        "attribute/cti",
+        "name/cti/camel",
+        "color/UIColor",
+        "content/objC/literal",
+        "asset/objC/literal",
+        "size/remToPt",
+        "font/objC/literal"
+      ],
       "buildPath": "build/ios/",
       "files": [{
         "destination": "CetusDictionaryColor.h",
