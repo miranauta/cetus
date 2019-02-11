@@ -24,7 +24,7 @@
       "transforms": [
         "attribute/cti",
         "name/cti/camel",
-        "color/UIColor",
+        "color/hex8",
         "content/objC/literal",
         "asset/objC/literal",
         "size/remToPt",
@@ -32,39 +32,19 @@
       ],
       "buildPath": "build/ios/",
       "files": [{
-        "destination": "CetusDictionaryColor.h",
-        "format": "ios/colors.h",
-        "className": "CetusDictionaryColor",
-        "type": "CetusDictionaryColorName",
+        "destination": "CetusColors.json",
+        "format": "json/flat",
+        "type": "CetusColorName",
         "filter": {
           "attributes": {
             "category": "color"
           }
         }
-      },{
-        "destination": "CetusDictionaryColor.m",
-        "format": "ios/colors.m",
-        "className": "CetusDictionaryColor",
-        "type": "CetusDictionaryColorName",
-        "filter": {
-          "attributes": {
-            "category": "color"
-          }
-        }
-      },{
-        "destination": "CetusDictionarySize.h",
-        "format": "ios/static.h",
-        "className": "CetusDictionarySize",
-        "type": "float",
-        "filter": {
-          "attributes": {
-            "category": "size"
-          }
-        }
-      },{
-        "destination": "CetusDictionarySize.m",
-        "format": "ios/static.m",
-        "className": "CetusDictionarySize",
+      },
+      {
+        "destination": "CetusDimensions.json",
+        "format": "json/flat",
+        "className": "CetusDimensions",
         "type": "float",
         "filter": {
           "attributes": {
