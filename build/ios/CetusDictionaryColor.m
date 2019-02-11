@@ -3,7 +3,7 @@
 // CetusDictionaryColor.m
 //
 // Do not edit directly
-// Generated on Thu, 31 Jan 2019 14:07:27 GMT
+// Generated on Thu, 07 Feb 2019 20:21:51 GMT
 //
 
 #import "CetusDictionaryColor.h"
@@ -22,7 +22,7 @@
   dispatch_once(&onceToken, ^{
     colorArray = @[
 [UIColor colorWithRed:0.00f green:0.31f blue:0.42f alpha:1.00f],
-[UIColor colorWithRed:0.25f green:0.48f blue:0.56f alpha:1.00f],
+[UIColor colorWithRed:0.60f green:0.72f blue:0.76f alpha:1.00f],
 [UIColor colorWithRed:0.85f green:0.90f blue:0.91f alpha:1.00f],
 [UIColor colorWithRed:0.71f green:0.29f blue:0.30f alpha:1.00f],
 [UIColor colorWithRed:0.94f green:0.43f blue:0.43f alpha:1.00f],
