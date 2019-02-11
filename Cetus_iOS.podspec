@@ -10,7 +10,7 @@ Cetus StyleDictionary with Mira's default tokens.
   s.author           = { 'Ramon Honorio' => 'ramon.honorio@miraeducacao.com.br' }
   s.source           = { :git => '', :tag => s.version.to_s, :branch => 'release' }
   s.platform = :ios
-  s.source_files = 'build/ios/**/*.{h,m}'
+  s.source_files = 'build/ios/**/*.{h,m,json}'
   s.public_header_files = 'build/ios/**/*.h'
   s.resources = ['assets/images/png/*.png']
   s.frameworks = 'UIKit', 'QuartzCore'
