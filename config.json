@@ -27,7 +27,7 @@
         "color/hex8",
         "content/objC/literal",
         "asset/objC/literal",
-        "size/remToPt",
+        "size/remToPt/literal",
         "font/objC/literal"
       ],
       "buildPath": "build/ios/",

@@ -10,4 +10,15 @@ StyleDictionary.registerTransform({
   }
 });
 
+StyleDictionary.registerTransform({
+  name: 'size/remToPt/literal',
+  type: 'value',
+  matcher: function(prop) {
+    return prop.attributes.category === 'size';
+  },
+  transformer: function(prop) {
+    return parseFloat(prop.value, 10) * 16;
+  }
+});
+
 StyleDictionary.buildAllPlatforms();
