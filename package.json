@@ -7,7 +7,7 @@
     "node": ">=6.10.0"
   },
   "scripts": {
-    "build_tokens": "style-dictionary build",
+    "build_tokens": "node index.js",
     "build_android": "s2v -f assets/images/svg/ -o cetus/src/main/res/drawable/",
     "svg_export": "svgexport"
   },
@@ -16,8 +16,9 @@
   "dependencies": {
     "style-dictionary": "^2.6.2",
     "svg2vectordrawable": "^2.6.4"
-    },
+  },
   "devDependencies": {
+    "lodash": "^4.17.11",
     "svgexport": "^0.3.2"
   }
 }

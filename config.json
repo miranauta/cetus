@@ -23,7 +23,7 @@
     "ios": {
       "transforms": [
         "attribute/cti",
-        "name/cti/camel",
+        "name/ti/camel",
         "color/hex8",
         "content/objC/literal",
         "asset/objC/literal",
