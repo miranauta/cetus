@@ -21,4 +21,16 @@ StyleDictionary.registerTransform({
   }
 });
 
+StyleDictionary.registerTransform({
+  name: 'size/text/literal',
+  type: 'value',
+  matcher: function(prop) {
+    return (prop.attributes.category === 'size' && prop.attributes.type === 'text') 
+    || (prop.attributes.category === 'weight');
+  },
+  transformer: function(prop) {
+    return parseFloat(prop.value, 10).toFixed(2);
+  }
+});
+
 StyleDictionary.buildAllPlatforms();

@@ -1,0 +1,26 @@
+{
+  "size": {
+    "text": {
+      "xsmall" : { 
+        "font": { "value" : "10" },
+        "height": { "value" : "12" }
+      },
+      "small" : { 
+        "font": { "value" : "14" },
+        "height": { "value" : "16" }
+      },
+      "medium" : { 
+        "font": { "value" : "16" },
+        "height": { "value" : "20" }
+      },
+      "large" : { 
+        "font": { "value" : "20" },
+        "height": { "value" : "24" }
+      },
+      "xlarge" : { 
+        "font": { "value" : "28" },
+        "height": { "value" : "32" }
+      }
+    }
+  }
+}

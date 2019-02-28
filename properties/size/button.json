@@ -1,0 +1,8 @@
+{
+  "size": {
+    "button": {
+      "small" : { "value": "1.5" },
+      "normal" : { "value": "3" }
+    }
+  }
+}
