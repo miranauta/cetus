@@ -10,7 +10,13 @@
       }]
     },
     "android": {
-      "transformGroup": "android",
+      "transforms": [
+        "attribute/cti",
+        "name/cti/snake", 
+        "color/hex8android",
+        "size/remToSp",
+        "size/remToDp"
+      ],
       "buildPath": "cetus/src/main/res/values/",
       "files": [{
         "destination": "font_dimens.xml",
@@ -28,6 +34,7 @@
         "content/objC/literal",
         "asset/objC/literal",
         "size/remToPt/literal",
+        "size/custom/literal",
         "font/objC/literal"
       ],
       "buildPath": "build/ios/",

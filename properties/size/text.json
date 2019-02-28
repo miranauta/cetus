@@ -1,26 +1,18 @@
 {
   "size": {
-    "text": {
-      "xsmall" : { 
-        "font": { "value" : "10" },
-        "height": { "value" : "12" }
-      },
-      "small" : { 
-        "font": { "value" : "14" },
-        "height": { "value" : "16" }
-      },
-      "medium" : { 
-        "font": { "value" : "16" },
-        "height": { "value" : "20" }
-      },
-      "large" : { 
-        "font": { "value" : "20" },
-        "height": { "value" : "24" }
-      },
-      "xlarge" : { 
-        "font": { "value" : "28" },
-        "height": { "value" : "32" }
-      }
+    "font": {
+      "xsmall" : { "value" : 10 },
+      "small" : { "value" : 14 },
+      "medium" : { "value" : 16 },
+      "large" : { "value" : 20 },
+      "xlarge" : { "value" : 28 }
+    },
+    "lineHeight": {
+      "xsmall" : { "value" : "{size.micro.value}" },
+      "small" : { "value" : "{size.regular.value}" },
+      "medium" : { "value" : "{size.large.value}" },
+      "large" : { "value" : "{size.big.value}" },
+      "xlarge" : { "value" : "{size.bigger.value}" }
     }
   }
 }

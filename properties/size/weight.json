@@ -1,12 +1,10 @@
 {
   "weight": {
-    "text": {
-      "regular" : {
-        "value": "400"
-      },
-      "bold" : { 
-        "value": "700"
-      }
+    "regular" : {
+      "value": 400
+    },
+    "bold" : { 
+      "value": 700
     }
   }
 }

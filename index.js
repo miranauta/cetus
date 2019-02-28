@@ -1,6 +1,18 @@
 const _ = require("lodash");
 const StyleDictionary = require("style-dictionary").extend("./config.json");
 
+function isSize(prop) {
+  return prop.attributes.category === 'size' && !isTextSize(prop) && !isWeightSize(prop);
+}
+
+function isTextSize(prop) {
+  return prop.attributes.type === 'text' && prop.attributes.category === 'size';
+}
+
+function isWeightSize(prop) {
+  return prop.attributes.type === 'weight' && prop.attributes.category === 'size';
+}
+
 StyleDictionary.registerTransform({
   name: "name/ti/camel",
   type: "name",
@@ -14,7 +26,7 @@ StyleDictionary.registerTransform({
   name: 'size/remToPt/literal',
   type: 'value',
   matcher: function(prop) {
-    return prop.attributes.category === 'size';
+    return isSize(prop);
   },
   transformer: function(prop) {
     return parseFloat(prop.value, 10) * 16;
@@ -22,14 +34,13 @@ StyleDictionary.registerTransform({
 });
 
 StyleDictionary.registerTransform({
-  name: 'size/text/literal',
+  name: 'size/custom/literal',
   type: 'value',
   matcher: function(prop) {
-    return (prop.attributes.category === 'size' && prop.attributes.type === 'text') 
-    || (prop.attributes.category === 'weight');
+    return isTextSize(prop) || isWeightSize(prop);
   },
   transformer: function(prop) {
-    return parseFloat(prop.value, 10).toFixed(2);
+    return parseFloat(prop.value, 10) * 1.0;
   }
 });
 
