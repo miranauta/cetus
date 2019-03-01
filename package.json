@@ -1,24 +1,22 @@
 {
   "name": "@mira/cetus",
   "version": "0.3.9",
-  "description": "Mira Cetus design system.",
-  "main": "src/index.js",
+  "description": "Mira Cetus - Design System.",
+  "main": "index.js",
   "engines": {
-    "node": ">=6.10.0"
+    "node": ">=10"
   },
   "scripts": {
-    "build_tokens": "node index.js",
-    "build_android": "s2v -f assets/images/svg/ -o cetus/src/main/res/drawable/",
-    "svg_export": "svgexport"
+    "build": "npm run build:tokens && npm run build:assets",
+    "build:tokens": "node index.js",
+    "build:assets": "scripts/build_assets.sh"
   },
   "author": "Mira Developers",
   "license": "SEE LICENSE IN LICENSE",
-  "dependencies": {
-    "style-dictionary": "^2.6.2",
-    "svg2vectordrawable": "^2.6.4"
-  },
   "devDependencies": {
     "lodash": "^4.17.11",
+    "style-dictionary": "^2.6.2",
+    "svg2vectordrawable": "^2.6.4",
     "svgexport": "^0.3.2"
   }
 }

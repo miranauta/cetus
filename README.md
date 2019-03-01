@@ -1,1 +1,1 @@
-# Mira Design System
+# Mira Cetus - Design System

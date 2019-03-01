@@ -1,0 +1,14 @@
+{
+  "size": {
+    "padding": {
+      "micro" : { "value": "0.25" },
+      "tiny" : { "value": "0.5" },
+      "small": { "value": "0.75" },
+      "regular" : { "value": "1" },
+      "large" : { "value": "1.25" },
+      "big"  : { "value": "1.5" },
+      "bigger"  : { "value": "1.75" },
+      "huge"  : { "value": "2" }
+    }
+  }
+}
