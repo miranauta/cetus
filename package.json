@@ -1,0 +1,22 @@
+{
+  "name": "@mira/cetus",
+  "version": "0.3.6",
+  "description": "Mira Cetus - Design System.",
+  "main": "index.js",
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "build": "npm run build:tokens && npm run build:assets",
+    "build:tokens": "node index.js",
+    "build:assets": "scripts/build_assets.sh"
+  },
+  "author": "Mira Developers",
+  "license": "SEE LICENSE IN LICENSE",
+  "devDependencies": {
+    "lodash": "^4.17.11",
+    "style-dictionary": "^2.6.2",
+    "svg2vectordrawable": "^2.6.4",
+    "svgexport": "^0.3.2"
+  }
+}

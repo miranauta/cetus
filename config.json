@@ -1,0 +1,57 @@
+{
+  "source": ["properties/**/*.json"],
+  "platforms": {
+    "scss": {
+      "transformGroup": "scss",
+      "buildPath": "build/scss/",
+      "files": [{
+        "destination": "_variables.scss",
+        "format": "scss/variables"
+      }]
+    },
+    "android": {
+      "transformGroup": "android",
+      "buildPath": "cetus/src/main/res/values/",
+      "files": [{
+        "destination": "font_dimens.xml",
+        "format": "android/fontDimens"
+      },{
+        "destination": "colors.xml",
+        "format": "android/colors"
+      }]
+    },
+    "ios": {
+      "transforms": [
+        "attribute/cti",
+        "name/ti/camel",
+        "color/hex8",
+        "content/objC/literal",
+        "asset/objC/literal",
+        "size/remToPt",
+        "font/objC/literal"
+      ],
+      "buildPath": "build/ios/",
+      "files": [{
+        "destination": "CetusColors.json",
+        "format": "json/flat",
+        "type": "CetusColorName",
+        "filter": {
+          "attributes": {
+            "category": "color"
+          }
+        }
+      },
+      {
+        "destination": "CetusDimensions.json",
+        "format": "json/flat",
+        "className": "CetusDimensions",
+        "type": "float",
+        "filter": {
+          "attributes": {
+            "category": "size"
+          }
+        }
+      }]
+    }
+  }
+}

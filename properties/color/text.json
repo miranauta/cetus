@@ -1,0 +1,8 @@
+{
+  "color": {
+    "text": {
+      "base": { "value": "{color.gray.primary.value}" },
+      "secondary": { "value": "{color.gray.light.value}" }
+    }
+  }
+}
