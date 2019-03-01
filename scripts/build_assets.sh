@@ -1,25 +1,29 @@
-#!/bin/bash -xe
+#!/bin/bash -e
 
 SVG_PATH=assets/images/svg
 PNG_PATH=build/assets/images/png
 
 svgexport() {
-  image=$(basename ${1})
+  image=`basename ${1}`
   size=${2}
   imageSize=${3:-''}
 
-  npx svgexport "${SVG_PATH}/${image}" \
-    "${PNG_PATH}/${image%.*}${imageSize}".png \
-    ${size}
+  echo
+  echo ${@}
+
+  npx svgexport \
+    "${SVG_PATH}/${image}" \
+    "${PNG_PATH}/${image%.*}${imageSize}.png" \
+    "${size}"
 }
 
 svg2png() {
-  find ${SVG_PATH} -name '*.svg' -exec sh -c '\
-    echo "\n\nSVG to PNG: ${1}"; \
-    svgexport ${1} 2x; \
-    svgexport ${1} 4x @2x; \
-    svgexport ${1} 6x @3x; \
-  ' {} \;
+  find ${SVG_PATH} -name '*.svg' | \
+    while read file; do \
+      svgexport $file 2x; \
+      svgexport $file 4x @2x; \
+      svgexport $file 6x @3x; \
+    done
 }
 
 svg2vector() {
