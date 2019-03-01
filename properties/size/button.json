@@ -1,0 +1,16 @@
+{
+  "size": {
+    "height": {
+      "button": {
+        "small" : { "value": "1.5" },
+        "normal" : { "value": "3" }
+      }
+    },
+    "spacing": {
+      "button": {
+        "micro" : { "value": "{size.micro.value}" },
+        "regular" : { "value": "{size.regular.value}" }
+      }
+    }
+  }
+}

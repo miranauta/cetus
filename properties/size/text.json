@@ -1,0 +1,18 @@
+{
+  "size": {
+    "font": {
+      "xsmall" : { "value" : 10 },
+      "small" : { "value" : 14 },
+      "medium" : { "value" : 16 },
+      "large" : { "value" : 20 },
+      "xlarge" : { "value" : 28 }
+    },
+    "lineHeight": {
+      "xsmall" : { "value" : "{size.micro.value}" },
+      "small" : { "value" : "{size.regular.value}" },
+      "medium" : { "value" : "{size.large.value}" },
+      "large" : { "value" : "{size.big.value}" },
+      "xlarge" : { "value" : "{size.bigger.value}" }
+    }
+  }
+}
