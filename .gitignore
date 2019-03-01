@@ -1,29 +1,28 @@
 *
 .*
 
-!assets/
-!assets/**/*
+!build/
+!build/**/*
+!build/**/.*
 
-!docs/
-!docs/**/*.md
-!docs/**/*.html
-!docs/**/.nojekyll
+!cetus/
+!cetus/**/*
+!cetus/**/.*
 
-!properties/
-!properties/**/*.json
+!gradle/
+!gradle/**/*
+!gradle/**/.*
 
-!scripts/
-!scripts/**/*
-
-!.editorconfig
-!.eslintrc.js
 !.gitignore
-!.prettierrc.js
-!config.json
-!index.js
+!build.gradle
+!Cetus_iOS.podspec
+!grade.properties
+!gradlew
+!gradlew.bat
 !LICENSE
 !package.json
 !README.md
+!settings.gradle
 
 
 
