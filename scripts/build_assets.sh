@@ -2,9 +2,10 @@
 
 SVG_PATH=assets/images/svg
 PNG_PATH=build/assets/images/png
+VECTOR_PATH=cetus/src/main/res/drawable
 
 svgexport() {
-  image=`basename ${1}`
+  image=$(basename ${1})
   size=${2}
   imageSize=${3:-''}
 
@@ -18,6 +19,8 @@ svgexport() {
 }
 
 svg2png() {
+  rm -rf ${PNG_PATH}
+
   find ${SVG_PATH} -name '*.svg' | \
     while read file; do \
       svgexport $file 2x; \
@@ -27,7 +30,9 @@ svg2png() {
 }
 
 svg2vector() {
-  npx s2v -f ${SVG_PATH} -o cetus/src/main/res/drawable/
+  rm -rf ${VECTOR_PATH}
+
+  npx s2v -f ${SVG_PATH} -o ${VECTOR_PATH}
 }
 
 build_svg() {
