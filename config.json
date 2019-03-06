@@ -1,5 +1,5 @@
 {
-  "source": ["properties/**/*.json"],
+  "source": ["src/properties/**/*.{js,json}"],
   "platforms": {
     "android": {
       "transforms": [

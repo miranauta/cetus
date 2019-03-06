@@ -1,16 +1,13 @@
 *
 .*
 
-!assets/
-!assets/**/*
+!src/
+!src/**/*
 
 !docs/
 !docs/**/*.md
 !docs/**/*.html
 !docs/**/.nojekyll
-
-!properties/
-!properties/**/*.json
 
 !scripts/
 !scripts/**/*
@@ -22,6 +19,7 @@
 !config.json
 !index.js
 !LICENSE
+!package-lock.json
 !package.json
 !README.md
 
