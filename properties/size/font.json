@@ -1,27 +1,24 @@
 {
   "size": {
     "font": {
-      "micro" : {
-        "value": "0.25"
-      },
-      "tiny" : {
-        "value": "0.5"
-      },
-      "small": {
-        "value": "0.75"
-      },
-      "medium" : {
-        "value": "1"
-      },
-      "large" : {
-        "value": "1.25"
-      },
-      "big"  : {
-        "value": "1.5"
-      },
-      "base"  : {
-        "value": "{size.font.medium.value}"
-      }
+      "xsmall": { "value": 10 },
+      "small": { "value": 14 },
+      "medium": { "value": 16 },
+      "large": { "value": 20 },
+      "xlarge": { "value": 28 },
+      "base": { "value": "{size.font.medium.value}" }
+    },
+    "lineHeight": {
+      "xsmall": { "value": "{size.small.value}" },
+      "small": { "value": "{size.medium.value}" },
+      "medium": { "value": "{size.large.value}" },
+      "large": { "value": "{size.xlarge.value}" },
+      "xlarge": { "value": "{size.huge.value}" },
+      "base": { "value": "{size.lineHeight.medium.value}" }
+    },
+    "fontWeight": {
+      "regular": { "value": 400 },
+      "bold": { "value": 700 }
     }
   }
 }

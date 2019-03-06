@@ -1,21 +1,13 @@
 {
   "source": ["properties/**/*.json"],
   "platforms": {
-    "scss": {
-      "transformGroup": "scss",
-      "buildPath": "build/scss/",
-      "files": [{
-        "destination": "_variables.scss",
-        "format": "scss/variables"
-      }]
-    },
     "android": {
       "transforms": [
         "attribute/cti",
-        "name/cti/snake", 
+        "name/cti/snake",
         "color/hex8android",
-        "size/remToSp",
-        "size/remToDp"
+        "size/sp",
+        "size/dp"
       ],
       "buildPath": "cetus/src/main/res/values/",
       "files": [{
@@ -29,12 +21,11 @@
     "ios": {
       "transforms": [
         "attribute/cti",
-        "name/ti/camel",
+        "custom/name/ti/camel",
         "color/hex8",
+        "custom/size/number",
         "content/objC/literal",
         "asset/objC/literal",
-        "size/remToPt/literal",
-        "size/custom/literal",
         "font/objC/literal"
       ],
       "buildPath": "build/ios/",
