@@ -2,17 +2,14 @@
 
 <!--
   Do not edit directly
-  Generated on Fri, 01 Mar 2019 21:13:03 GMT
+  Generated on Tue, 12 Mar 2019 14:43:40 GMT
 -->
 <resources>
-  <dimen name="size_font_micro">4.00sp</dimen>
-  <dimen name="size_font_tiny">8.00sp</dimen>
-  <dimen name="size_font_small">224.00sp</dimen>
-  <dimen name="size_font_medium">256.00sp</dimen>
-  <dimen name="size_font_large">320.00sp</dimen>
-  <dimen name="size_font_big">24.00sp</dimen>
-  <dimen name="size_font_base">256.00sp</dimen>
-  <dimen name="size_font_xsmall">160.00sp</dimen>
-  <dimen name="size_font_xlarge">448.00sp</dimen>
+  <dimen name="size_font_xsmall">10.00sp</dimen>
+  <dimen name="size_font_small">14.00sp</dimen>
+  <dimen name="size_font_medium">16.00sp</dimen>
+  <dimen name="size_font_large">20.00sp</dimen>
+  <dimen name="size_font_xlarge">28.00sp</dimen>
+  <dimen name="size_font_base">16.00sp</dimen>
   
 </resources>
